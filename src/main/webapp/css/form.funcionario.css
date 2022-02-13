@@ -1,0 +1,21 @@
+#form {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+#col1 {
+	padding-right: 16px;
+}
+
+#col2 {
+	padding-left: 16px;
+}
+
+@media ( max-width : 548px) {
+	#form {
+		display: block;
+	}
+	#col1, #col2 {
+		padding: 0;
+	}
+}

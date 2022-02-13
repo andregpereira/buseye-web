@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+	font-family: Rubik;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: #333;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	background-color: #333;
+}
+
+nav {
+	background-color: #f79518;
+}
+
+main {
+	background-color: #888;
+}
+
+footer {
+	background-color: #333;
+}
+
+.redes-sociais {
+	font-size: 20px;
+	color: #888;
+}
+
+.fa-facebook:hover {
+	color: #4267B2;
+}
+
+.fa-instagram:hover {
+	color: #8a3ab9;
+}
+
+.fa-youtube:hover {
+	color: #c4302b;
+}
+
+.fa-reddit:hover {
+	color: #FF5700;
+}
+
+.fa-twitter:hover {
+	color: #00acee;
+}
+
+.branco {
+	color: #fff;
+}
